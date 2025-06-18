@@ -57,5 +57,5 @@ The **Inventory Management System** is designed to help businesses manage their 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/123Akshat/inventory-app.git
+   git clone https://github.com/Vaibhavi09/Smart-Inventory-System/tree/main
    cd inventory-app
