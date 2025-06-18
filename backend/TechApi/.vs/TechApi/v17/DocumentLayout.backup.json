@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|c:\\users\\akshat saxena\\onedrive\\desktop\\inventory\\backend\\techapi\\techapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|solutionrelative:techapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|c:\\users\\akshat saxena\\onedrive\\desktop\\inventory\\backend\\techapi\\techapi\\models\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|solutionrelative:techapi\\models\\customerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|c:\\users\\akshat saxena\\onedrive\\desktop\\inventory\\backend\\techapi\\techapi\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|solutionrelative:techapi\\controllers\\inventorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|c:\\users\\akshat saxena\\onedrive\\desktop\\inventory\\backend\\techapi\\techapi\\models\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|solutionrelative:techapi\\models\\customerrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|c:\\users\\akshat saxena\\onedrive\\desktop\\inventory\\backend\\techapi\\techapi\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|solutionrelative:techapi\\models\\inventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|c:\\users\\akshat saxena\\onedrive\\desktop\\inventory\\backend\\techapi\\techapi\\models\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|solutionrelative:techapi\\models\\inventorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|c:\\users\\akshat saxena\\onedrive\\desktop\\inventory\\backend\\techapi\\techapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D70FFC2-50B0-4E54-B359-8925AB1C201F}|TechApi\\TechApi.csproj|solutionrelative:techapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerDto.cs",
+              "DocumentMoniker": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Models\\CustomerDto.cs",
+              "RelativeDocumentMoniker": "TechApi\\Models\\CustomerDto.cs",
+              "ToolTip": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Models\\CustomerDto.cs",
+              "RelativeToolTip": "TechApi\\Models\\CustomerDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T04:41:02.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Models\\CustomerRequestDto.cs",
+              "RelativeDocumentMoniker": "TechApi\\Models\\CustomerRequestDto.cs",
+              "ToolTip": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Models\\CustomerRequestDto.cs",
+              "RelativeToolTip": "TechApi\\Models\\CustomerRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:36:23.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "TechApi\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "TechApi\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAIwFYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T20:33:52.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inventory.cs",
+              "DocumentMoniker": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Models\\Inventory.cs",
+              "RelativeDocumentMoniker": "TechApi\\Models\\Inventory.cs",
+              "ToolTip": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Models\\Inventory.cs",
+              "RelativeToolTip": "TechApi\\Models\\Inventory.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T12:41:26.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InventoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Controllers\\InventoryController.cs",
+              "RelativeDocumentMoniker": "TechApi\\Controllers\\InventoryController.cs",
+              "ToolTip": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Controllers\\InventoryController.cs",
+              "RelativeToolTip": "TechApi\\Controllers\\InventoryController.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAADwv4QAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T11:55:32.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Program.cs",
+              "RelativeDocumentMoniker": "TechApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Program.cs",
+              "RelativeToolTip": "TechApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T17:47:24.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InventoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Models\\InventoryDto.cs",
+              "RelativeDocumentMoniker": "TechApi\\Models\\InventoryDto.cs",
+              "ToolTip": "C:\\Users\\Akshat Saxena\\OneDrive\\Desktop\\Inventory\\backend\\TechApi\\TechApi\\Models\\InventoryDto.cs",
+              "RelativeToolTip": "TechApi\\Models\\InventoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T07:01:42.126Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

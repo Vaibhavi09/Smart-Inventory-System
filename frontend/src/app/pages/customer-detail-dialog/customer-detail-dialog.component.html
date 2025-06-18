@@ -1,0 +1,30 @@
+<div class="row mx-3 py-3">
+    <h5>Customer Forms</h5>
+    <form (ngSubmit)="onSubmit()">
+        <div class="row py-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" [(ngModel)]="CustomerDetails.FirstName" name="FirstName">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" [(ngModel)]="CustomerDetails.LastName" name="LastName">
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col">
+                <input type="email" class="form-control" placeholder="Email" aria-label="Email" [(ngModel)]="CustomerDetails.Email" name="Email">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Phone" aria-label="Phone" [(ngModel)]="CustomerDetails.Mobile" name="Phone">
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Customer ID" aria-label="Customer ID" [(ngModel)]="CustomerDetails.CustomerID" name="CustomerID">
+            </div>
+            <div class="col">
+                <input type="date" class="form-control" placeholder="Registration Data" aria-label="Registration Data" [(ngModel)]="CustomerDetails.RegistrationDate" name="RegistrationDate">
+            </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Add</button>
+    </form>
+</div>

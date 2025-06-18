@@ -1,0 +1,37 @@
+<div class="container" style="margin-top: 70px;">
+    <div class="row">
+        <button type="button" class="btn btn-primary btn-sm" (click)="openModal()">Add New Customer</button>
+    </div>
+    <br>
+
+    <h3>Customer Details</h3>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-striped">
+                <thead>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Customer Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Registration Data</th>
+
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let customer of customerDetails">
+                        <td>{{customer.CustomerID}}</td>
+                        <td>{{customer.FirstName}} {{customer.LastName}}</td>
+                        <td>{{customer.Email}}</td>
+                        <td>{{customer.Mobile}}</td>
+                        <td>{{customer.RegistrationDate | date}}</td>
+                        <td>
+                            <button type="button" class="btn btn-info btn-sm">Edit</button>&nbsp;
+                            <button type="button" class="btn btn-danger btn-sm" (click)="onDelete(customer.CustomerID)">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+</div>

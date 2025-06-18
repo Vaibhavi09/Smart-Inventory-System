@@ -1,0 +1,58 @@
+<div class="row mx-3">
+    <h2>Inventory</h2><hr>
+</div>
+
+<form>
+    <div class="row mx-5">
+      <div class="col">
+        <label for="productId">Product ID</label>
+        <input type="text" class="form-control" [disabled]="isUpdate" placeholder="Product ID" [(ngModel)]="inventoryData.productId" name="productId">
+      </div>
+      <div class="col">
+        <label for="productName">Product Name</label>
+        <input type="text" class="form-control" placeholder="Product Name" [(ngModel)]="inventoryData.productName" name="productName">
+      </div>
+      <div class="col">
+        <label for="stockAvailable">Stock Available</label>
+        <input type="number" class="form-control" placeholder="Stock Available" [(ngModel)]="inventoryData.stockAvailable" name="stockAvailable">
+      </div>
+      <div class="col">
+        <label for="reorderStock">Reorder Stock</label>
+        <input type="number" class="form-control" placeholder="Reorder Stock" [(ngModel)]="inventoryData.reorderStock" name="reorderStock">
+      </div>
+    </div>
+  </form>
+  <div class="row mx-5 mt-3">
+    <div class="col-lg-3">
+      <button type="button" class="btn btn-primary mt-3" (click)="onSubmit()">Submit</button>
+    </div>
+  </div>
+
+<div class="mt-5 mx-3">
+    <h3>Inventory Details</h3>
+</div>
+
+<table class="table table-hover mx-3">
+    <thead>
+        <tr>
+            <th scope="col">Product ID</th>
+            <th scope="col">Product Name</th>
+            <th scope="col">Stock Available</th>
+            <th scope="col">Reorder Stock</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let inventory of inventoryDto; let i = index">
+            <th scope="row">{{inventory.ProductID}}</th>
+            <td>{{inventory.ProductName}}</td>
+            <td>{{inventory.StockAvailable}}</td>
+            <td>{{inventory.ReorderStock}}</td>
+            <td>
+                <button type="button" class="btn btn-primary" (click) = "onEdit(inventory)">Edit</button>&nbsp;
+                <button type="button" class="btn btn-danger" (click)="onDelete(inventory.ProductID)">Delete</button>
+            </td>
+        </tr>
+        
+        <!-- Add more rows as needed -->
+</table>

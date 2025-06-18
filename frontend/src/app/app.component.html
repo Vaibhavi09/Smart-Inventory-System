@@ -1,0 +1,90 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Inventory Management System</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" routerLink="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/inventory">Inventory</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/customer">Customer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/bill">Bill</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="mt-5">
+  <router-outlet></router-outlet>
+</div>
+
+<footer class="footer mt-auto py-3 bg-dark text-white">
+  <div class="container">
+    <div class="row">
+      <!-- About Section -->
+      <div class="col-md-4">
+        <h5>About Us</h5>
+        <p>
+          Inventory Management System helps you manage your stock efficiently and effectively. 
+          Track, organize, and optimize your inventory with ease.
+        </p>
+      </div>
+
+      <!-- Quick Links Section -->
+      <div class="col-md-4">
+        <h5>Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="/" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="/inventory" class="text-white text-decoration-none">Inventory</a></li>
+          <li><a href="/customer" class="text-white text-decoration-none">Customer</a></li>
+          <li><a href="/bill" class="text-white text-decoration-none">Bill</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media Section -->
+<div class="col-md-4">
+  <h5>Follow Us</h5>
+  <ul class="list-unstyled">
+    <li class="mb-2">
+      <a href="https://github.com/123Akshat" class="text-white text-decoration-none d-flex align-items-center">
+        <i class="bi bi-facebook me-2"></i> Github
+      </a>
+    </li>
+    <li class="mb-2">
+      <a href="https://www.linkedin.com/in/akshat-saxena-52984b21b/" class="text-white text-decoration-none d-flex align-items-center">
+        <i class="bi bi-twitter me-2"></i> LinkedIn
+      </a>
+    </li>
+    <li class="mb-2">
+      <a href="https://leetcode.com/u/akshat_00/" class="text-white text-decoration-none d-flex align-items-center">
+        <i class="bi bi-instagram me-2"></i> LeetCode
+      </a>
+    </li>
+    <li>
+      <a href="https://akshatsaxenaportfolio.netlify.app/" class="text-white text-decoration-none d-flex align-items-center">
+        <i class="bi bi-linkedin me-2"></i> Portfolio
+      </a>
+    </li>
+  </ul>
+</div>
+    </div>
+
+    <hr class="border-secondary">
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 Inventory Management System. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
